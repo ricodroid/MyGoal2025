@@ -1,0 +1,48 @@
+# User-specific files
+*.xcuserdatad
+*.xcuserdata
+*.swp
+*.swo
+*.lock
+*.DS_Store
+*.xcscmblueprint
+
+# Build products
+build/
+DerivedData/
+*.app
+*.ipa
+*.dSYM
+*.xcarchive
+
+# Xcode automatically generated files
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+project.xcworkspace/
+xcshareddata/
+!xcshareddata/WorkspaceSettings.xcsettings
+
+# Swift Package Manager
+.swiftpm/
+Package.resolved
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Firebase
+GoogleService-Info.plist
+
+# Other
+*.env
+
