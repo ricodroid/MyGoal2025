@@ -8,17 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		1D68B8392D2753B800D9DFB7 /* MyGoal2025App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D68B8382D2753B800D9DFB7 /* MyGoal2025App.swift */; };
-		1D68B83B2D2753B800D9DFB7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D68B83A2D2753B800D9DFB7 /* ContentView.swift */; };
 		1D68B83D2D2753B900D9DFB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D68B83C2D2753B900D9DFB7 /* Assets.xcassets */; };
 		1D68B8402D2753B900D9DFB7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D68B83F2D2753B900D9DFB7 /* Preview Assets.xcassets */; };
+		1D68B8472D2757DF00D9DFB7 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D68B8462D2757DF00D9DFB7 /* Models.swift */; };
+		1D68B8492D2757F900D9DFB7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D68B8482D2757F900D9DFB7 /* HomeView.swift */; };
+		1D68B84B2D27581000D9DFB7 /* GoalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D68B84A2D27581000D9DFB7 /* GoalDetailView.swift */; };
+		1D68B84D2D27582100D9DFB7 /* DiaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D68B84C2D27582100D9DFB7 /* DiaryView.swift */; };
+		1D68B84F2D275BCC00D9DFB7 /* AddGoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D68B84E2D275BCC00D9DFB7 /* AddGoalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1D68B8352D2753B800D9DFB7 /* MyGoal2025.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyGoal2025.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D68B8382D2753B800D9DFB7 /* MyGoal2025App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGoal2025App.swift; sourceTree = "<group>"; };
-		1D68B83A2D2753B800D9DFB7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1D68B83C2D2753B900D9DFB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D68B83F2D2753B900D9DFB7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1D68B8462D2757DF00D9DFB7 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		1D68B8482D2757F900D9DFB7 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1D68B84A2D27581000D9DFB7 /* GoalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalDetailView.swift; sourceTree = "<group>"; };
+		1D68B84C2D27582100D9DFB7 /* DiaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryView.swift; sourceTree = "<group>"; };
+		1D68B84E2D275BCC00D9DFB7 /* AddGoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGoalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +60,13 @@
 			isa = PBXGroup;
 			children = (
 				1D68B8382D2753B800D9DFB7 /* MyGoal2025App.swift */,
-				1D68B83A2D2753B800D9DFB7 /* ContentView.swift */,
 				1D68B83C2D2753B900D9DFB7 /* Assets.xcassets */,
 				1D68B83E2D2753B900D9DFB7 /* Preview Content */,
+				1D68B8462D2757DF00D9DFB7 /* Models.swift */,
+				1D68B8482D2757F900D9DFB7 /* HomeView.swift */,
+				1D68B84A2D27581000D9DFB7 /* GoalDetailView.swift */,
+				1D68B84C2D27582100D9DFB7 /* DiaryView.swift */,
+				1D68B84E2D275BCC00D9DFB7 /* AddGoalView.swift */,
 			);
 			path = MyGoal2025;
 			sourceTree = "<group>";
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D68B83B2D2753B800D9DFB7 /* ContentView.swift in Sources */,
+				1D68B8472D2757DF00D9DFB7 /* Models.swift in Sources */,
+				1D68B84B2D27581000D9DFB7 /* GoalDetailView.swift in Sources */,
+				1D68B84D2D27582100D9DFB7 /* DiaryView.swift in Sources */,
+				1D68B84F2D275BCC00D9DFB7 /* AddGoalView.swift in Sources */,
+				1D68B8492D2757F900D9DFB7 /* HomeView.swift in Sources */,
 				1D68B8392D2753B800D9DFB7 /* MyGoal2025App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
